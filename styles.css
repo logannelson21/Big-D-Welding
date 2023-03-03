@@ -107,9 +107,6 @@ hr {
 
 /* GRID */
 
-.grid-background {
-    
-}
 
 h4 {
     display: flex;
@@ -142,7 +139,7 @@ h4 {
     
 }
 
-/* FACEBOOK */
+/* FACEBOOK/SECOND GRID */
 
 .fb-info {
     display: flex;
@@ -154,36 +151,69 @@ h4 {
     padding: 15px;
 }
 
+
+.custom-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*BACKGROUND PATTERN */
+
+.background-pattern {
+    background-image: url('img/background\ \(1\).png');
+}
+
 /* ABOUT */
 
 .about-wrapper {
-    background-color: #41403c;
-
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #271c19
 }
 
 .about-heading {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #edefee;
     padding: 15px;
+
 }
 
 .about-info {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #edefee;
     padding: 15px;
+    margin-left: 20px;
+    max-width: fit-content;
 }
 
 /* CONTACT */
 
+/*.contact-wrapper {
+    font-size: 2em;
+}
 
+.contact-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+    font-size: 2em;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}*/
 
 
 /* FOOTER */
 
 footer {
     text-align: center;
+    background-color: #41403c;
+    color: #edefee;
 }

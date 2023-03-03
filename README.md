@@ -1,1 +1,1 @@
-# welding-site
+This is a business website for a local welder. It will be hosted and used by others. It is my first real world project and I am very proud of it. I hope everyone reading this can appreciate it. I am completely self taught so making a project like this is super cool to me. Thank you for reading.

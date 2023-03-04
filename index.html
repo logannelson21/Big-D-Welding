@@ -13,7 +13,8 @@
     <title>Big-D Welding</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div id="navbar-example">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" id="navbar-example" data-bs-theme="black">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Big-D Welding</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +23,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Products</a>
+                <a class="nav-link active" aria-current="page" id="products" href="#products">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" id="contact" href="https://www.facebook.com/marketplace/profile/100005681416368">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" id="about" href="#about">About</a>
               </li>
               </li>
             </ul>
@@ -36,39 +37,74 @@
         </div>
     </nav>
 
+    <div class="scrollspy-example bg-light rounded-2" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-smooth-scroll="true">
+
     <div class="background-wrapper">
-    <header class="container zone red">
-        <h1>Handmade products built to last.</h1>
+    <header class="container red">
+        <h1 class="heading1">BIG-D WELDING</h1>
     </header>
+
+    <section class="title-info">
+        <p>SPECIALIZING IN CUSTOM STOVES & OTHER NEEDS</p>
+    </section>
 
     <hr/>
 
     <section class="button-section">
-        <button class="btn info-btn btn-primary">Show me products!</button>
+        <button class="btn info-btn btn-primary"><a href="https://www.facebook.com/marketplace/profile/100005681416368">CONTACT ME</button></a>
     </section>
     </div>
     
     <!--<div class="pattern-diagonal-stripes-lg text-blue">-->
-    <div class="zone grid-wrapper">
-        <div class="box zone"><img src="img/bbq.jpg"></div>
-        <div class="box zone"><img src="img/walltent.jpg"></div>
-        <div class="box zone"><img src="img/firepit.jpg"></div>
-        <div class="box zone"><img src="img/warming.jpg"></div>
-        <div class="box zone"><img src="img/ski.jpg"></div>
-        <div class="box zone"><img src="img/woodstove.jpg"></div>
+    <div class="background-pattern">
+    <div class="grid-background" id="products">
+        <div class="grid-heading">
+            <h4>MY WORK</h4>
+        </div>
+        <hr class="work-seperate"/>
+    <div class="zone1 grid-wrapper">
+        <div class="box zone1"><a class="box zone1" href="https://www.facebook.com/marketplace/item/870127550907861/?ref=marketplace_profile&referral_code=undefined"><img src="bbq.jpg"></a></div>
+        <div class="box zone1"><a class="box zone1" href="https://www.facebook.com/marketplace/item/1460918627765844?ref=marketplace_profile&referral_code=undefined"><img src="walltent.jpg"></a></div>
+        <div class="box zone1"><a class="box zone1" href="https://www.facebook.com/marketplace/item/578939137473294/?ref=marketplace_profile&referral_code=undefined"><img src="firepit.jpg"></a></div>
+        <div class="box zone1"><a class="box zone1" href="https://www.facebook.com/marketplace/item/2754120068143833/?ref=marketplace_profile&referral_code=undefined"><img src="kindling.jpg"></a></div>
+        <div class="box zone1"><a class="box zone1" href="https://www.facebook.com/marketplace/item/4144562422304409/?ref=marketplace_profile&referral_code=undefined"><img src="ski.jpg"></a></div>
+        <div class="box zone1"><a class="box zone1" href="https://www.facebook.com/marketplace/item/2754120068143833/?ref=marketplace_profile&referral_code=undefined"><img src="woodstove.jpg"></a></div>
+        <div class="box zone1"><a class="box zone1" href="https://www.facebook.com/marketplace/item/255010320022889/?ref=marketplace_profile&referral_code=undefined"><img src="stove2.jpg"></a></div>
+        <div class="box zone1"><a class="box zone1" href="https://www.facebook.com/marketplace/item/635987684055040/?ref=marketplace_profile&referral_code=undefined"><img src="dutch.jpg"></a></div>
+    </div>
     </div>
     <!--</div>-->
+    <div class="fb-info">
+        <p>ALL PICTURES ARE LINKED TO MY FACEBOOK. JUST CLICK/TAP ON THE PHOTO YOU LIKE AND YOU WILL BE DIRECTED TO FACEBOOK MARKETPLACE.</p>
+    </div>
 
-    <div class="about-wrapper">
+    <div class="grid-background" id="products">
+        <div class="grid-heading">
+            <h4 class="custom">CUSTOM DESIGNS PER REQUEST</h4>
+        </div>
+        <div class="custom-info">
+            <p>I CAN BUILD ANY SIZE OF STOVE -- FIRE BRICKS ARE AVAILABLE PER REQUEST</p>
+        </div>
+        <hr class="work-seperate"/>
+    </div>
+    <div class="zone1 grid-wrapper">
+        <div class="box zone1"><img src="20220509_155317.jpg"></div>
+        <div class="box zone1"><img src="20221130_164554.jpg"></div>
+        <div class="box zone1"><img src="20230221_150707.jpg"></div>
+        <div class="box zone1"><img src="20230209_162834.jpg"></div>
+    </div>
+
+    <div class="about-wrapper" id="about">
         <section class="about-heading">
-            <h2>About</h2>
+            <p class="abt-heading">About</p>
         </section>
+
         <section>
-            <p class="about-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ab minima aperiam rem unde facilis ipsa laboriosam harum hic explicabo, repellat earum iste nemo quod molestiae at sed eligendi quis maiores dignissimos a consequatur. Dignissimos, consequuntur quam. Enim, at maxime.</p>
+            <p class="about-info">MY NAME IS DENNIS KRUCKMAN I HAVE A PASSION FOR WELDING. I have over 50 years of experience, I am a skilled welder with a passion for creating strong, durable, and creative products. From small items to large stoves, I take pride in my attention to detail and commitment to delivering high-quality workmanship.<p>
         </section>
     </div>
 
-    <div class="contact-wrapper">
+    <!--<div class="contact-wrapper" id="contact">
         <section class="contact-header">
             <h3>Contact</h3>
         </section>
@@ -79,11 +115,12 @@
                 <li>Facebook</li>
             </ul>
         </section>
-    </div>
+    </div> -->
 
     <footer>
-        © <span id="year"></span> Logan Nelson
+        © <span id="year"></span> Logan Nelson - - 541-515-8512 for website inquiries
     </footer>
+    </div>
 
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

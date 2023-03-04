@@ -88,7 +88,7 @@ hr {
 
 
 .background-wrapper {
-    background-image: url('welding2.jpg');
+    background-image: url('/welding2.jpg');
     background-size: cover;
     color:#edefee;
     
@@ -161,7 +161,7 @@ h4 {
 /*BACKGROUND PATTERN */
 
 .background-pattern {
-    background-image: url('background\ \(1\).png');
+    background-image: url('/background\ \(1\).png');
     background-size: cover;
 }
 

@@ -5,12 +5,26 @@
 
 html, body {
     height: 100%;
+    margin: 0;
     width: 100%;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     .background-wrapper {
         font-size: .5em;
+        padding: 0;
+    }
+    .fb-info {
+        font-size: .5em;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .background-wrapper {
+        font-size: .2em;
         padding: 0;
     }
     .fb-info {

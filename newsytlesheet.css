@@ -13,11 +13,11 @@ html, body {
 
 @media only screen and (max-width: 600px) {
     .background-wrapper {
-        font-size: .5em;
+        font-size: 1rem;
         padding: 0;
     }
-    .fb-info {
-        font-size: .5em;
+    .fb-infop {
+        font-size: 1rem;
         padding: 0;
     }
     .about-wrapper {

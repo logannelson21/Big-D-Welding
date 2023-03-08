@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .background-wrapper {
+        font-size: .5em;
+        padding: 0;
+    }
+    .fb-info {
+        font-size: .5em;
+        padding: 0;
+    }
+    .about-wrapper {
+        font-size: 1rem;
+        padding: 0;
+    }
+    .title-info {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .about-info {
+/* background-color: #c061ff; */
+        font-size: 1rem;
+  }
+    .container .heading1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/* background-color: blue; */
+    font-size: 3rem;
+}
+}
+
+
+a {
+    text-decoration: none;
+    color: #fffffe;
+    background-color: transparent;
+}
+
+body {
+    margin: auto 0;
+}
+
+.zone1 {
+    cursor:pointer;
+    color:#edefee;
+    transition: all 0.3s linear;
+}
+
+.zone1:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/* COVER */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    width: 100%;
+}
+
+.red {
+    font-weight: 900;
+}
+
+.heading1 {
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    margin: 20px auto;
+    border: 3px solid white;
+    max-width: 200px;
+    opacity: 1; 
+}
+
+.button-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+.title-info {
+    font-weight: 900;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.background-wrapper {
+    background-image: url("img/welding2.jpg");
+    background-size: cover;
+    color:#edefee;
+    
+}
+
+
+.btn-primary {
+    height: 100px;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid #fffffe;
+    color: #271c19;
+    --bs-btn-hover-bg: #41403c;	
+    --bs-btn-hover-border-color: #41403c;
+}
+
+/* GRID */
+
+
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.work-seperate {
+    margin: 20px auto;
+    border: 3px solid #41403c;
+    max-width: 200px;
+    opacity: 1;
+}
+
+.grid-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+    width: 100%;
+    padding: 10px;
+}
+
+.box {
+    background-color: #41403c;
+    
+}
+
+/* FACEBOOK/SECOND GRID */
+
+.fb-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    padding: 15px;
+}
+
+
+.custom-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*BACKGROUND PATTERN */
+
+.background-pattern {
+    background-image: url("img/background\ \(1\).png \(1\).png");
+    background-size: cover;
+}
+
+/* ABOUT */
+
+.about-wrapper {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #271c19
+}
+
+.about-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 20px;
+
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 20px;
+    max-width: fit-content;
+}
+
+/* CONTACT */
+
+/*.contact-wrapper {
+    font-size: 2em;
+}
+
+.contact-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+    font-size: 2em;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}*/
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    color: #271c19;
+    font-weight: 900;
+}
